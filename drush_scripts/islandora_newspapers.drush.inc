@@ -94,6 +94,7 @@ function create_book_object($data) {
   $xml = <<<ISSUE_MODS
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <relatedItem type="host">
+    <!-- the lccn identifier should be a variable ... what's in there now is the one for the Guardian -->
         <identifier type="lccn">cn 87080496</identifier>
         <part>
             <detail type="volume">
@@ -245,10 +246,12 @@ function create_page_object($file_path, $data, $reel_number, $collection_pid) {
         <identifier type="reel number">$reel_number</identifier>
         <identifier type="reel sequence number">$sequence_number</identifier>
         <location>
+        <!-- the physicalLocation element should be a variable PCU is UPEI -->
             <physicalLocation authority="marcorg" displayLabel="Source Repository">PCU</physicalLocation>
         </location>
     </relatedItem>
     <identifier type="PID">$pid</identifier>
+    <!-- the note type="agencyResponsibleForReproduction" element should be a variable PCU is UPEI -->
     <note type="agencyResponsibleForReproduction" displayLabel="Institution Responsible for Digitization">PCU</note>
 </mods>
 PAGE_MODS;
