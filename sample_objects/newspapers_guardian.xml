@@ -1,0 +1,776 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<foxml:digitalObject VERSION="1.1" PID="newspapers:guardian"
+xmlns:foxml="info:fedora/fedora-system:def/foxml#"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="info:fedora/fedora-system:def/foxml# http://www.fedora.info/definitions/1/0/foxml1-1.xsd">
+<foxml:objectProperties>
+<foxml:property NAME="info:fedora/fedora-system:def/model#state" VALUE="Active"/>
+<foxml:property NAME="info:fedora/fedora-system:def/model#label" VALUE="Guardian"/>
+<foxml:property NAME="info:fedora/fedora-system:def/model#ownerId" VALUE="fedoraAdmin"/>
+<foxml:property NAME="info:fedora/fedora-system:def/model#createdDate" VALUE="2012-07-19T14:59:15.400Z"/>
+<foxml:property NAME="info:fedora/fedora-system:def/view#lastModifiedDate" VALUE="2012-07-27T18:21:08.310Z"/>
+</foxml:objectProperties>
+<foxml:datastream ID="AUDIT" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+<foxml:datastreamVersion ID="AUDIT.0" LABEL="Audit Trail for this object" CREATED="2012-07-19T14:59:15.400Z" MIMETYPE="text/xml" FORMAT_URI="info:fedora/fedora-system:format/xml.fedora.audit">
+<foxml:xmlContent>
+<audit:auditTrail xmlns:audit="info:fedora/fedora-system:def/audit#">
+<audit:record ID="AUDREC1">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByValue</audit:action>
+<audit:componentID>RELS-EXT</audit:componentID>
+<audit:responsibility>fedoraAdmin</audit:responsibility>
+<audit:date>2012-07-27T18:20:43.456Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC2">
+<audit:process type="Fedora API-M"/>
+<audit:action>addDatastream</audit:action>
+<audit:componentID>TN</audit:componentID>
+<audit:responsibility>admin</audit:responsibility>
+<audit:date>2012-07-27T18:21:08.310Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+</audit:auditTrail>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="RELS-EXT" STATE="A" CONTROL_GROUP="X" VERSIONABLE="true">
+<foxml:datastreamVersion ID="RELS-EXT.0" LABEL="RDF Statements about this Object" CREATED="2012-07-27T18:20:43.456Z" MIMETYPE="application/rdf+xml" FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0" SIZE="653">
+<foxml:xmlContent>
+<rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:fedora="info:fedora/fedora-system:def/relations-external#" xmlns:fedora-model="info:fedora/fedora-system:def/model#" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="info:fedora/newspapers:guardian">
+    <fedora:isMemberOfCollection rdf:resource="info:fedora/newspapers:root"></fedora:isMemberOfCollection>
+    <fedora-model:hasModel rdf:resource="info:fedora/islandora:newspaperCModel"></fedora-model:hasModel>
+  </rdf:Description>
+</rdf:RDF>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="MODS" STATE="A" CONTROL_GROUP="X" VERSIONABLE="true">
+<foxml:datastreamVersion ID="MODS.0" LABEL="MODS Record" CREATED="2012-07-25T13:40:47.078Z" MIMETYPE="text/xml" SIZE="17320">
+<foxml:xmlContent>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Guardian</title>
+    <subTitle></subTitle>
+  </titleInfo>
+  <titleInfo type="alternative">
+    <title></title>
+    <subTitle></subTitle>
+  </titleInfo>
+  <name type="personal">
+    <namePart type="given">B.D.</namePart>
+    <namePart type="family">Higgs</namePart>
+    <role>
+      <roleTerm authority="marcrelator" type="text"></roleTerm>
+    </role>
+    <role>
+      <roleTerm authority="marcrelator" type="text">Editor</roleTerm>
+    </role>
+    <role>
+      <roleTerm authority="marcrelator" type="text">Managing Director</roleTerm>
+    </role>
+    <description>Editor from Dec. 16 1890 - Jan. 8 1894; Aug. 20 1895 - Feb. 16 1896. Managing Director from Feb. 5 1894 - Nov. 16 1896</description>
+
+  </name>
+  <name type="personal">
+    <namePart type="given">M.J.</namePart>
+    <namePart type="family">MacDonald</namePart>
+    <role>
+      <roleTerm authority="marcrelator" type="text"></roleTerm>
+    </role>
+    <role>
+      <roleTerm authority="marcrelator" type="text">Editor</roleTerm>
+    </role>
+    <description>Editor from Feb. 5 1894 - Aug. 19 1895</description>
+
+  </name>
+  <name type="personal">
+    <namePart type="given">J.E.B.</namePart>
+    <namePart type="family">McCready</namePart>
+    <role>
+      <roleTerm authority="marcrelator" type="text"></roleTerm>
+    </role>
+    <role>
+      <roleTerm authority="marcrelator" type="text">Editor</roleTerm>
+    </role>
+    <description>Editor from Feb. 17 1896 - Jan. 31 1908</description>
+
+  </name>
+  <name type="personal">
+    <namePart type="given">D.K.</namePart>
+    <namePart type="family">Currie</namePart>
+    <role>
+      <roleTerm authority="marcrelator" type="text"></roleTerm>
+    </role>
+    <role>
+      <roleTerm authority="marcrelator" type="text">Editor</roleTerm>
+    </role>
+    <description>Editor from July 2 1912 - Jan. 30 1913</description>
+
+  </name>
+  <name type="personal">
+    <namePart type="given">J.R.</namePart>
+    <namePart type="family">Burnett</namePart>
+    <role>
+      <roleTerm authority="marcrelator" type="text"></roleTerm>
+    </role>
+    <role>
+      <roleTerm authority="marcrelator" type="text">Editor</roleTerm>
+    </role>
+    <role>
+      <roleTerm authority="marcrelator" type="text">Managing Director</roleTerm>
+    </role>
+    <description>Editor from May 14 1914 - Feb. 15 1916; July 27 1918 - Sept. 20 1951. Managing director from Sept. 16 1930 - Sept. 20 1951</description>
+
+  </name>
+  <name type="personal">
+    <namePart type="given">Frank</namePart>
+    <namePart type="family">Walker</namePart>
+    <role>
+      <roleTerm authority="marcrelator" type="text"></roleTerm>
+    </role>
+    <role>
+      <roleTerm authority="marcrelator" type="text">Associate Editor</roleTerm>
+    </role>
+    <role>
+      <roleTerm authority="marcrelator" type="text">Editor</roleTerm>
+    </role>
+    <description>Associate Editor from Sept. 21 1951 - Dec. 15 1954; Editor from Dec. 16 1954 - Nov. 5 1969</description>
+
+  </name>
+  <name type="personal">
+    <namePart type="given">Burton</namePart>
+    <namePart type="family">Lewis</namePart>
+    <role>
+      <roleTerm authority="marcrelator" type="text"></roleTerm>
+    </role>
+    <role>
+      <roleTerm authority="marcrelator" type="text">Executive Editor</roleTerm>
+    </role>
+    <description>Executive editor from Sept. 26 1959 - Jan. 21 1965</description>
+
+  </name>
+  <name type="personal">
+    <namePart type="given">Ian A.</namePart>
+    <namePart type="family">Burnett</namePart>
+    <role>
+      <roleTerm authority="marcrelator" type="text"></roleTerm>
+    </role>
+    <role>
+      <roleTerm authority="marcrelator" type="text">Associate Editor</roleTerm>
+    </role>
+    <role>
+      <roleTerm authority="marcrelator" type="text">Editor</roleTerm>
+    </role>
+    <role>
+      <roleTerm authority="marcrelator" type="text">Managing Director</roleTerm>
+    </role>
+    <role>
+      <roleTerm authority="marcrelator" type="text">General Manager</roleTerm>
+    </role>
+    <role>
+      <roleTerm authority="marcrelator" type="text">Publisher</roleTerm>
+    </role>
+    <role>
+      <roleTerm authority="marcrelator" type="text">President</roleTerm>
+    </role>
+    <description>Associate Editor from Sept. 21 1951 - June 15 1953.
+ Editor from June 16 1953 - Dec. 15 1954. 
+ Managing Director from June 16 1953 - Feb. 8 1954.
+ General Manager from Feb. 9 1954 - Dec. 15 1954; Dec. 16 1954 - Aug. 20 1959.     Publisher from July 23, 1956 - Aug. 20 1959. 
+ President from May 31 1946 - May 12 1948; Sept. 21 1951 - June 15 1953. </description>
+
+  </name>
+  <name type="personal">
+    <namePart type="given">Wallace</namePart>
+    <namePart type="family">Ward</namePart>
+    <role>
+      <roleTerm authority="marcrelator" type="text"></roleTerm>
+    </role>
+    <role>
+      <roleTerm authority="marcrelator" type="text">Managing Editor</roleTerm>
+    </role>
+    <description>Managing Editor from Jan. 22 1965 - May 30 1970</description>
+
+  </name>
+  <name type="personal">
+    <namePart type="given">Walter</namePart>
+    <namePart type="family">MacIntyre</namePart>
+    <role>
+      <roleTerm authority="marcrelator" type="text"></roleTerm>
+    </role>
+    <role>
+      <roleTerm authority="marcrelator" type="text">Managing Editor</roleTerm>
+    </role>
+    <description>Managing Editor from Jan. 3 1975 - Present</description>
+
+  </name>
+  <name type="personal">
+    <namePart type="given">J.P.</namePart>
+    <namePart type="family">Hood</namePart>
+    <role>
+      <roleTerm authority="marcrelator" type="text"></roleTerm>
+    </role>
+    <role>
+      <roleTerm authority="marcrelator" type="text">Business Manager</roleTerm>
+    </role>
+    <role>
+      <roleTerm authority="marcrelator" type="text">Managing Director</roleTerm>
+    </role>
+    <role>
+      <roleTerm authority="marcrelator" type="text">President</roleTerm>
+    </role>
+    <description>Business Manager from Dec. 29 1891 - Mar. 9 1903; Managing Director from July 2 1912 - Jan. 30 1913. President from July 2 1912 - Jan. 30 1913</description>
+
+  </name>
+  <name type="personal">
+    <namePart type="given">W.J.</namePart>
+    <namePart type="family">Hancox</namePart>
+    <role>
+      <roleTerm authority="marcrelator" type="text"></roleTerm>
+    </role>
+    <role>
+      <roleTerm authority="marcrelator" type="text">Publisher</roleTerm>
+    </role>
+    <description>Publisher from Sept. 26 1959 - Apr. 30 1979</description>
+
+  </name>
+  <name type="personal">
+    <namePart type="given">Stewart S.</namePart>
+    <namePart type="family">Vickerson</namePart>
+    <role>
+      <roleTerm authority="marcrelator" type="text"></roleTerm>
+    </role>
+    <role>
+      <roleTerm authority="marcrelator" type="text">Publisher</roleTerm>
+    </role>
+    <description>Publisher from May 1 1979 - Present</description>
+
+  </name>
+  <name type="personal">
+    <namePart type="given">A.A.</namePart>
+    <namePart type="family">Bartlett</namePart>
+    <role>
+      <roleTerm authority="marcrelator" type="text"></roleTerm>
+    </role>
+    <role>
+      <roleTerm authority="marcrelator" type="text">President</roleTerm>
+    </role>
+    <description>President from May 14 1914 - Feb. 15 1916; July 27 1918 - Dec. 14 1920</description>
+
+  </name>
+  <name type="personal">
+    <namePart type="given">Sir Charles</namePart>
+    <namePart type="family">Dalton</namePart>
+    <role>
+      <roleTerm authority="marcrelator" type="text"></roleTerm>
+    </role>
+    <role>
+      <roleTerm authority="marcrelator" type="text">President</roleTerm>
+    </role>
+    <description>President from Dec. 24 1920 - May 21 1923</description>
+
+  </name>
+  <name type="personal">
+    <namePart type="given">W. Chester S.</namePart>
+    <namePart type="family">McLure</namePart>
+    <role>
+      <roleTerm authority="marcrelator" type="text"></roleTerm>
+    </role> 
+   <role>
+      <roleTerm authority="marcrelator" type="text">President</roleTerm>
+    </role>
+    <description>President from May 22 1923 - May 30 1946</description>
+  </name>
+  <name type="personal">
+    <namePart type="given">Gary</namePart>
+    <namePart type="family">MacDougall</namePart>
+    <role>
+      <roleTerm authority="marcrelator" type="text">Managing Editor</roleTerm>
+    </role>
+    <description>Current Managing Editor</description>
+  </name>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="marcgt">newspaper</genre>
+  <identifier type="issn">0832-2708</identifier>
+  <identifier type="hdl"></identifier>
+  <identifier type="lccn"></identifier>
+  <abstract></abstract>
+  <note type="prospectus">The Guardian, the successor to the Island Guardian, began publication in 1890 as a politically independent newspaper printing news and advertisements. Its editorials often discussed trade 
+and tariffs, and it supported temperance and the Scott Act. Local, national and international news coverage was excellent in the paper. Towards the end of the 1890s, headlines and line drawings illustrating the news stories began appearing in the Guardian. 
+The tone of the newspaper changed during the first decade of the twentieth century; its news coverage became more sensational and its editorials offered less political commentary. Special 
+weekend issues were printed during the second half of this decade, featuring comic strips, housekeeping articles, popular songs, sermons, local history and Sunday School lessons. Photographs and line drawings appeared frequently during the final years of the decade. 
+Between 1910 and 1920, the Guardian started to support the Conservative party, the result of a company of Conservatives having purchased it in 1912. During World War I, both the Union Government and compulsion found support in the Guardian&apos;s editorial columns. Other editorial concerns of this time included fox farming, agriculture and the war effort. Comic strips and 
+photographs began to be featured regularly during this decade. 
+During the 1920s, the Guardian remained a Conservative newspaper, although the amount of political commentary in the paper decreased. News, fiction, anecdotes and advertisements continued to be published, along with an increasing number of special interest columns, some of them syndicated. The subjects of these columns included health, cars, ettiquette, recipes, fashion, and housekeeping. Sports reporting became a regular feature during this decade. Weekend issues of the Guardian were longer and contained more light reading. 
+During the 1930s, the Guardian&apos;s editorials did not very often deal with politics, although the paper did maintain its Conservative bias. Editorial concerns included the depression, the world political situation and education on P.E.I.. A women&apos;s page began during the 1930s and it featured articles on beauty, fashion and housekeeping, along with the Dorothy Dix advice column. A health column appeared throughout the decade, while columns on fox farming, girl guiding and photography were of shorter duration. 
+During the 1940s, the Guardian shed its Conservative bias, becoming politically nonpartisan. News coverage was excellent during the decade and editorial topics included World War II, product shortages, freight rates and P.E.I.&apos;s welfare within Canada. Crossword puzzles appeared irregularly towards the end of the decade, and a number of local Island columns began to appear, including &quot;Ellen&apos;s Diary,&quot; &quot;Legends of P.E. Island,&quot; and &quot;Old Charlottetown (And P.E.I.).&quot; 
+In 1954, the Guardian became a Thomson newspaper. Local news coverage was expanded during the remainder of the decade, with national and international news coverage suffering. Also, fiction ceased to be printed during the 1950s. In the 1960s, only the front page featured national and international news stories. Editorials avoided controversy, commenting benignly on international affairs, national politics, and nuclear weapons. 
+During the 1970s, editorials in the Guardian occasionally discussed P.E.I, issues such as nonresident land ownership and the surfeit of civil servants. Also featured on the editorial page were syndicated news columns by John Harbron, Stewart MacLeod and Vincent Egan. Among the many other columns appearing during the 1970s were Walter O&apos;Brien&apos;s &quot;Bristol Notes&quot; and Lorne Johnston&apos;s &quot;Ole Salt.&quot; The women&apos;s page became a lifestyles page, featuring primarily human interest stories. Television listings and summer vacation supplements were also printed. The Guardian is still being published today, printing the same types of materials it published during the 1970s. 
+Throughout the years, a number of different editions of the Guardian have been published in addition to the daily. The Weekly Guardian was apparently published between 1887 and 1890, 
+and between 1892 and 1905. For some of these years, this edition may have been published as the Island Guardian (see also). The Semi-Weekly Guardian (see also) was published between 1892 and March 9, 1903. Between July 12, 1905 and November 15, 1906, the Tri-Weekly Guardian was published. Morning and evening editions of the Guardian were published between 1906 and 1921. Today, the Guardian is a morning daily. 
+The Guardian was published by Guardian Publishing Co. from Dec. 16, 1890 up until 1948. They were then taken over by Island Guardian Publishing Co. from Mar. 29, 1948 to Feb. 8, 1954. The newspaper was bought by Thomson Co. Ltd. on Feb. 9, 1954, and was owned by Thomson until Jan. 5th, 1979. On Jan. 6, 1979, Canadian Newspapers Co. Ltd. took over publication up until Sept. 29, 1984. On Oct. 1, 1984, County Newspapers Ltd. became the newspaper&apos;s publisher. Thomson Co. Ltd. took over publication of the newspaper once again on Oct. 2, 1984. In October of 1996, Southam Newspapers took over publication, and the newspaper changed ownership again in 2000 when Canwest Global took over. Transcontinental Media took over publication of the newspaper in August of 2002, and is the publisher of The Guardian today.</note>
+  <originInfo>
+    <publisher>Transcontinental Media</publisher>
+    <place>
+      <placeTerm type="text">Charlottetown, PE, Canada</placeTerm>
+    </place>
+    <dateIssued></dateIssued>
+    <dateIssued point="start">18901216</dateIssued>
+    <dateIssued point="end"></dateIssued>
+    <issuance>serial</issuance>
+    <frequency authority="marcfrequency">Daily</frequency>
+  </originInfo>
+  <subject>
+    <topic></topic>
+  </subject>
+  <subject>
+    <geographic></geographic>
+  </subject>
+  <subject>
+    <temporal></temporal>
+  </subject>
+  <relatedItem type="preceeding">
+    <titleInfo>
+      <title>Daily Guardian</title>
+      <subTitle></subTitle>
+    </titleInfo>
+    <originInfo>
+      <publisher>Guardian Publishing Co.</publisher>
+      <place>
+        <placeTerm type="text">Charlottetown, PE, Canada</placeTerm>
+      </place>
+      <issuance>continuing</issuance>
+      <dateIssued></dateIssued>
+      <dateIssued point="start">18901216</dateIssued>
+      <dateIssued point="end">18910108</dateIssued>
+      <frequency authority="marcfrequency">Daily</frequency>
+      <frequency></frequency>
+    </originInfo>
+    <identifier type="issn"></identifier>
+  </relatedItem>
+  <relatedItem type="preceeding">
+    <titleInfo>
+      <title>Morning Guardian</title>
+      <subTitle></subTitle>
+    </titleInfo>
+    <originInfo>
+      <publisher>Guardian Publishing Co.</publisher>
+      <place>
+        <placeTerm type="text">Charlottetown, PE, Canada</placeTerm>
+      </place>
+      <issuance>continuing</issuance>
+      <dateIssued></dateIssued>
+      <dateIssued point="start">18910128</dateIssued>
+      <dateIssued point="end">19040923</dateIssued>
+      <frequency authority="marcfrequency">Daily</frequency>
+      <frequency></frequency>
+    </originInfo>
+    <identifier type="issn"></identifier>
+  </relatedItem>
+  <relatedItem type="preceeding">
+    <titleInfo>
+      <title>Charlottetown Guardian</title>
+      <subTitle></subTitle>
+    </titleInfo>
+    <originInfo>
+      <publisher>Guardian Publishing Co.</publisher>
+      <place>
+        <placeTerm type="text">Charlottetown, PE, Canada</placeTerm>
+      </place>
+      <issuance>continuing</issuance>
+      <dateIssued></dateIssued>
+      <dateIssued point="start">19040924</dateIssued>
+      <dateIssued point="end">19451109</dateIssued>
+      <frequency authority="marcfrequency">Daily</frequency>
+      <frequency></frequency>
+    </originInfo>
+    <identifier type="issn"></identifier>
+  </relatedItem>
+  <relatedItem type="preceeding">
+    <titleInfo>
+      <title>Guardian of the Gulf</title>
+      <subTitle></subTitle>
+    </titleInfo>
+    <originInfo>
+      <publisher>Island Guardian Publishing Co.</publisher>
+      <place>
+        <placeTerm type="text">Charlottetown, PE, Canada</placeTerm>
+      </place>
+      <issuance>continuing</issuance>
+      <dateIssued></dateIssued>
+      <dateIssued point="start">19451110</dateIssued>
+      <dateIssued point="end">19550917</dateIssued>
+      <frequency authority="marcfrequency">Daily</frequency>
+      <frequency></frequency>
+    </originInfo>
+    <identifier type="issn"></identifier>
+  </relatedItem>
+
+</mods>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="DC" STATE="A" CONTROL_GROUP="X" VERSIONABLE="true">
+<foxml:datastreamVersion ID="DC.0" LABEL="Dublin Core Record" CREATED="2012-07-25T13:40:47.304Z" MIMETYPE="text/xml" SIZE="7799">
+<foxml:xmlContent>
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+  <dc:title>Guardian</dc:title>
+  <dc:title>:</dc:title>
+  <dc:subject></dc:subject>
+  <dc:subject></dc:subject>
+  <dc:subject></dc:subject>
+  <dc:description></dc:description>
+  <dc:description>The Guardian, the successor to the Island Guardian, began publication in 1890 as a politically independent newspaper printing news and advertisements. Its editorials often discussed trade 
+and tariffs, and it supported temperance and the Scott Act. Local, national and international news coverage was excellent in the paper. Towards the end of the 1890s, headlines and line drawings illustrating the news stories began appearing in the Guardian. 
+The tone of the newspaper changed during the first decade of the twentieth century; its news coverage became more sensational and its editorials offered less political commentary. Special 
+weekend issues were printed during the second half of this decade, featuring comic strips, housekeeping articles, popular songs, sermons, local history and Sunday School lessons. Photographs and line drawings appeared frequently during the final years of the decade. 
+Between 1910 and 1920, the Guardian started to support the Conservative party, the result of a company of Conservatives having purchased it in 1912. During World War I, both the Union Government and compulsion found support in the Guardian&apos;s editorial columns. Other editorial concerns of this time included fox farming, agriculture and the war effort. Comic strips and 
+photographs began to be featured regularly during this decade. 
+During the 1920s, the Guardian remained a Conservative newspaper, although the amount of political commentary in the paper decreased. News, fiction, anecdotes and advertisements continued to be published, along with an increasing number of special interest columns, some of them syndicated. The subjects of these columns included health, cars, ettiquette, recipes, fashion, and housekeeping. Sports reporting became a regular feature during this decade. Weekend issues of the Guardian were longer and contained more light reading. 
+During the 1930s, the Guardian&apos;s editorials did not very often deal with politics, although the paper did maintain its Conservative bias. Editorial concerns included the depression, the world political situation and education on P.E.I.. A women&apos;s page began during the 1930s and it featured articles on beauty, fashion and housekeeping, along with the Dorothy Dix advice column. A health column appeared throughout the decade, while columns on fox farming, girl guiding and photography were of shorter duration. 
+During the 1940s, the Guardian shed its Conservative bias, becoming politically nonpartisan. News coverage was excellent during the decade and editorial topics included World War II, product shortages, freight rates and P.E.I.&apos;s welfare within Canada. Crossword puzzles appeared irregularly towards the end of the decade, and a number of local Island columns began to appear, including &quot;Ellen&apos;s Diary,&quot; &quot;Legends of P.E. Island,&quot; and &quot;Old Charlottetown (And P.E.I.).&quot; 
+In 1954, the Guardian became a Thomson newspaper. Local news coverage was expanded during the remainder of the decade, with national and international news coverage suffering. Also, fiction ceased to be printed during the 1950s. In the 1960s, only the front page featured national and international news stories. Editorials avoided controversy, commenting benignly on international affairs, national politics, and nuclear weapons. 
+During the 1970s, editorials in the Guardian occasionally discussed P.E.I, issues such as nonresident land ownership and the surfeit of civil servants. Also featured on the editorial page were syndicated news columns by John Harbron, Stewart MacLeod and Vincent Egan. Among the many other columns appearing during the 1970s were Walter O&apos;Brien&apos;s &quot;Bristol Notes&quot; and Lorne Johnston&apos;s &quot;Ole Salt.&quot; The women&apos;s page became a lifestyles page, featuring primarily human interest stories. Television listings and summer vacation supplements were also printed. The Guardian is still being published today, printing the same types of materials it published during the 1970s. 
+Throughout the years, a number of different editions of the Guardian have been published in addition to the daily. The Weekly Guardian was apparently published between 1887 and 1890, 
+and between 1892 and 1905. For some of these years, this edition may have been published as the Island Guardian (see also). The Semi-Weekly Guardian (see also) was published between 1892 and March 9, 1903. Between July 12, 1905 and November 15, 1906, the Tri-Weekly Guardian was published. Morning and evening editions of the Guardian were published between 1906 and 1921. Today, the Guardian is a morning daily. 
+The Guardian was published by Guardian Publishing Co. from Dec. 16, 1890 up until 1948. They were then taken over by Island Guardian Publishing Co. from Mar. 29, 1948 to Feb. 8, 1954. The newspaper was bought by Thomson Co. Ltd. on Feb. 9, 1954, and was owned by Thomson until Jan. 5th, 1979. On Jan. 6, 1979, Canadian Newspapers Co. Ltd. took over publication up until Sept. 29, 1984. On Oct. 1, 1984, County Newspapers Ltd. became the newspaper&apos;s publisher. Thomson Co. Ltd. took over publication of the newspaper once again on Oct. 2, 1984. In October of 1996, Southam Newspapers took over publication, and the newspaper changed ownership again in 2000 when Canwest Global took over. Transcontinental Media took over publication of the newspaper in August of 2002, and is the publisher of The Guardian today.</dc:description>
+  <dc:publisher>Transcontinental Media</dc:publisher>
+  <dc:contributor>Higgs, B.D. () (Editor) (Managing Director)</dc:contributor>
+  <dc:contributor>MacDonald, M.J. () (Editor)</dc:contributor>
+  <dc:contributor>McCready, J.E.B. () (Editor)</dc:contributor>
+  <dc:contributor>Currie, D.K. () (Editor)</dc:contributor>
+  <dc:contributor>Burnett, J.R. () (Editor) (Managing Director)</dc:contributor>
+  <dc:contributor>Walker, Frank () (Associate Editor) (Editor)</dc:contributor>
+  <dc:contributor>Lewis, Burton () (Executive Editor)</dc:contributor>
+  <dc:contributor>Burnett, Ian A. () (Associate Editor) (Editor) (Managing Director) (General Manager) (Publisher) (President)</dc:contributor>
+  <dc:contributor>Ward, Wallace () (Managing Editor)</dc:contributor>
+  <dc:contributor>MacIntyre, Walter () (Managing Editor)</dc:contributor>
+  <dc:contributor>Hood, J.P. () (Business Manager) (Managing Director) (President)</dc:contributor>
+  <dc:contributor>Hancox, W.J. () (Publisher)</dc:contributor>
+  <dc:contributor>Vickerson, Stewart S. () (Publisher)</dc:contributor>
+  <dc:contributor>Bartlett, A.A. () (President)</dc:contributor>
+  <dc:contributor>Dalton, Sir Charles () (President)</dc:contributor>
+  <dc:contributor>McLure, W. Chester S. () (President)</dc:contributor>
+  <dc:contributor>MacDougall, Gary () (Managing Editor)</dc:contributor>
+  <dc:date>18901216-</dc:date>
+  <dc:type>Text</dc:type>
+  <dc:type>newspaper</dc:type>
+  <dc:identifier>newspapers:guardian</dc:identifier>
+  <dc:identifier></dc:identifier>
+  <dc:identifier>lccn: </dc:identifier>
+  <dc:relation>Daily Guardian--</dc:relation>
+  <dc:relation>Morning Guardian--</dc:relation>
+  <dc:relation>Charlottetown Guardian--</dc:relation>
+  <dc:relation>Guardian of the Gulf--</dc:relation>
+  <dc:coverage></dc:coverage>
+  <dc:coverage></dc:coverage>
+</oai_dc:dc>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="TN" STATE="A" CONTROL_GROUP="M" VERSIONABLE="true">
+<foxml:datastreamVersion ID="TN.0" LABEL="Thumbnail" CREATED="2012-07-27T18:21:08.310Z" MIMETYPE="image/png" SIZE="17816">
+<foxml:binaryContent> 
+              iVBORw0KGgoAAAANSUhEUgAAAHgAAAB4CAYAAAA5ZDbSAAAKQ2lDQ1BJQ0MgcHJvZmlsZQAAeNqdU3dY
+              k/cWPt/3ZQ9WQtjwsZdsgQAiI6wIyBBZohCSAGGEEBJAxYWIClYUFRGcSFXEgtUKSJ2I4qAouGdBioha
+              i1VcOO4f3Ke1fXrv7e371/u855zn/M55zw+AERImkeaiagA5UoU8Otgfj09IxMm9gAIVSOAEIBDmy8Jn
+              BcUAAPADeXh+dLA//AGvbwACAHDVLiQSx+H/g7pQJlcAIJEA4CIS5wsBkFIAyC5UyBQAyBgAsFOzZAoA
+              lAAAbHl8QiIAqg0A7PRJPgUA2KmT3BcA2KIcqQgAjQEAmShHJAJAuwBgVYFSLALAwgCgrEAiLgTArgGA
+              WbYyRwKAvQUAdo5YkA9AYACAmUIszAAgOAIAQx4TzQMgTAOgMNK/4KlfcIW4SAEAwMuVzZdL0jMUuJXQ
+              Gnfy8ODiIeLCbLFCYRcpEGYJ5CKcl5sjE0jnA0zODAAAGvnRwf44P5Dn5uTh5mbnbO/0xaL+a/BvIj4h
+              8d/+vIwCBAAQTs/v2l/l5dYDcMcBsHW/a6lbANpWAGjf+V0z2wmgWgrQevmLeTj8QB6eoVDIPB0cCgsL
+              7SViob0w44s+/zPhb+CLfvb8QB7+23rwAHGaQJmtwKOD/XFhbnauUo7nywRCMW735yP+x4V//Y4p0eI0
+              sVwsFYrxWIm4UCJNx3m5UpFEIcmV4hLpfzLxH5b9CZN3DQCshk/ATrYHtctswH7uAQKLDljSdgBAfvMt
+              jBoLkQAQZzQyefcAAJO/+Y9AKwEAzZek4wAAvOgYXKiUF0zGCAAARKCBKrBBBwzBFKzADpzBHbzAFwJh
+              BkRADCTAPBBCBuSAHAqhGJZBGVTAOtgEtbADGqARmuEQtMExOA3n4BJcgetwFwZgGJ7CGLyGCQRByAgT
+              YSE6iBFijtgizggXmY4EImFINJKApCDpiBRRIsXIcqQCqUJqkV1II/ItchQ5jVxA+pDbyCAyivyKvEcx
+              lIGyUQPUAnVAuagfGorGoHPRdDQPXYCWomvRGrQePYC2oqfRS+h1dAB9io5jgNExDmaM2WFcjIdFYIlY
+              GibHFmPlWDVWjzVjHVg3dhUbwJ5h7wgkAouAE+wIXoQQwmyCkJBHWExYQ6gl7CO0EroIVwmDhDHCJyKT
+              qE+0JXoS+cR4YjqxkFhGrCbuIR4hniVeJw4TX5NIJA7JkuROCiElkDJJC0lrSNtILaRTpD7SEGmcTCbr
+              kG3J3uQIsoCsIJeRt5APkE+S+8nD5LcUOsWI4kwJoiRSpJQSSjVlP+UEpZ8yQpmgqlHNqZ7UCKqIOp9a
+              SW2gdlAvU4epEzR1miXNmxZDy6Qto9XQmmlnafdoL+l0ugndgx5Fl9CX0mvoB+nn6YP0dwwNhg2Dx0hi
+              KBlrGXsZpxi3GS+ZTKYF05eZyFQw1zIbmWeYD5hvVVgq9ip8FZHKEpU6lVaVfpXnqlRVc1U/1XmqC1Sr
+              VQ+rXlZ9pkZVs1DjqQnUFqvVqR1Vu6k2rs5Sd1KPUM9RX6O+X/2C+mMNsoaFRqCGSKNUY7fGGY0hFsYy
+              ZfFYQtZyVgPrLGuYTWJbsvnsTHYF+xt2L3tMU0NzqmasZpFmneZxzQEOxrHg8DnZnErOIc4NznstAy0/
+              LbHWaq1mrX6tN9p62r7aYu1y7Rbt69rvdXCdQJ0snfU6bTr3dQm6NrpRuoW623XP6j7TY+t56Qn1yvUO
+              6d3RR/Vt9KP1F+rv1u/RHzcwNAg2kBlsMThj8MyQY+hrmGm40fCE4agRy2i6kcRoo9FJoye4Ju6HZ+M1
+              eBc+ZqxvHGKsNN5l3Gs8YWJpMtukxKTF5L4pzZRrmma60bTTdMzMyCzcrNisyeyOOdWca55hvtm82/yN
+              haVFnMVKizaLx5balnzLBZZNlvesmFY+VnlW9VbXrEnWXOss623WV2xQG1ebDJs6m8u2qK2brcR2m23f
+              FOIUjynSKfVTbtox7PzsCuya7AbtOfZh9iX2bfbPHcwcEh3WO3Q7fHJ0dcx2bHC866ThNMOpxKnD6Vdn
+              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
+</foxml:binaryContent> 
+</foxml:datastreamVersion>
+</foxml:datastream>
+</foxml:digitalObject>
