@@ -23,14 +23,14 @@ drush_scripts
      * script used to verify objects processed by the islandora_newspapers.drush.inc
 
 sample_drush_data
-* 19010812*19011101.csv
+* 19010812-19011101.csv
      * metadata file
-* 19010812*19011101.zip
+* 19010812-19011101.zip
      * zip of TIFF files
 
 sample_objects
 These are complete FOXML objects with their associated binaries
-* guardian_19200412*001.xml
+* guardian_19200412-001.xml
      * a newspaper page object
 * guardian_19200412.xml
      * a newspaper issue object
