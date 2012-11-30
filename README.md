@@ -35,3 +35,8 @@ These are complete FOXML objects with their associated binaries
 -- a newspaper issue object
 - newspapers_guardian.xml
 -- a newspaper object
+
+forms
+- newspaper_form.xml
+-- is an islandora xml formbuilder form that can be used to create MODS that describes a newspaper.
+The form would be associated with the islandora:newspaperCModel content model.
